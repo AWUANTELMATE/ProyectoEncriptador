@@ -1,0 +1,160 @@
+body {
+    position:relative;
+    width: 1440px;
+    height: 1024px;
+    background: #f3f5fc;
+}
+
+header {
+    text-align: center;
+}
+
+.izquierda {
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.area {
+    width: 60%;
+    height: 600px;
+    display: block;
+    resize: none;
+    font-size: 25px;
+    color: #0A3871;
+    background: #f3f5fc;
+    border: none;
+    font-family: 'poppins', sans-serif;
+}
+
+.derecha {
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.derecha img {
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 150px;
+}
+
+.texto {
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #343A40;
+    font-family: 'poppins', sans-serif;
+}
+
+.parrafo {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #495057;
+    font-family: 'poppins', sans-serif;
+}
+
+.resultado {
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 85%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.copiar {
+    width: 100%px;
+    height: 15%;
+}
+
+.btn-copiar {
+    width: 35%;
+    height: 40px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    line-height: 19px;
+    color: #0A3871;
+    background: #f3f5fc;
+    display: block;
+    margin: auto;
+}
+
+.aclaracion {
+    position: absolute;
+    display: flex;
+    color: #495057;
+    opacity: 0.8;
+}
+
+.aclaracion p {
+    padding-left: 10px;
+    margin-top: auto;
+    font-family: 'poppins', sans-serif;
+}
+
+.aclaracion img {
+    width: 16px;
+    height: 16px;
+}
+
+.botones {
+    width: 680px;
+    height: 100px;
+    left: 240px;
+    top: 885px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    text-align: center;
+}
+
+.btn-encriptar {
+    background: #0A3871;
+    color: #FFFFFF;
+    font-family: 'poppins', sans-serif;
+}
+
+.btn-desencriptar {
+    color: #0A3871;
+    background-color: #f3f5fc;
+    font-family: 'poppins', sans-serif;
+}
+
+.btn-desencriptar,
+.btn-encriptar {
+    height: 75%;
+    width: 50%;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: medium;
+    margin-top: 27px;
+}
+
+.pie {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 300px;
+    font-family: 'poppins', sans-serif;
+}
+
+.ocultar {
+    display: none;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Alura</title>
+    <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2? familia = Poppins: peso @ 300 & display=swap');
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="imagenes/Vector.png">
+    </header>
+
+    <div class="contenedor">
+        <div class="izquierda">
+            <textarea class="area" placeholder="Ingrese el texto aqui"></textarea>
+
+            <div class="botones">
+                <div class="aclaracion"><img src="imagenes/bi_exclamation-circle-fill (1).png">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+
+            </div>
+
+        </div>
+
+        <div class="derecha">
+            <div class="persona">
+                <img src="imagenes/Muñeco.png">
+            </div>
+            <div class="texto">
+                <h2>Ningún mensaje fue encontrado</h2>
+            </div>
+            <div class="parrafo">
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="resultado">
+                <p class="textoResultado"></p>
+            </div>
+            <div class="copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+        </div>
+    </div>
+
+    <div class="pie">
+        <footer>Challenge N1 de Patricio Hernan Vildoza
+        </footer>
+    </div>
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
